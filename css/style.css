@@ -1,6 +1,6 @@
 #wrapper {
 	max-width: 1170px;
-	margin: auto;
+	margin: 0 auto;
 }	
 
 article{
@@ -11,6 +11,9 @@ article{
 }
 
 section{
-    width: 70px;
-    height: 70px;
+    display: inline-block;
+    margin-right: 30px;
+    width: 170px;
+    height: 360px;
+    background-color: green;
 }
