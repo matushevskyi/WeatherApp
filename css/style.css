@@ -3,9 +3,22 @@
 	margin: 0 auto;
 }	
 
-article{
+#container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#today{
+    width: 570px;
+    height: 570px;
+    background-color: blue;
+    margin: 0 auto;
+}
+   
+section{
     display: inline-block;
     margin-right: 30px;
+    margin-top: 30px;
     width: 170px;
     height: 360px;
     background-color: green;
