@@ -6,6 +6,7 @@
 #container{
     max-width: 1170px;
     margin: 0 auto;
+    display: table;
 }
 
 #today{
@@ -16,7 +17,7 @@
 }
    
 .forecast{
-    display: block;
+    display: table-cell;
     float: left;
     width: 170px;
     height: 360px;
