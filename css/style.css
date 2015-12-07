@@ -16,9 +16,8 @@
 }
    
 .forecast{
-    display: inline-block;
-    margin-right: 30px;
-    margin-top: 30px;
+    display: block;
+    float: left;
     width: 170px;
     height: 360px;
     background-color: green;
