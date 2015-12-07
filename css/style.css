@@ -15,11 +15,35 @@
     margin: 0 auto;
 }
    
-section{
+.forecast{
     display: inline-block;
     margin-right: 30px;
     margin-top: 30px;
     width: 170px;
     height: 360px;
     background-color: green;
+}
+
+.forecast-header{
+    
+}
+
+.day{
+    
+}
+
+.forecast-content{
+    color: red;    
+}
+
+.forecast-icon{
+    
+}
+
+.degree-day{
+    
+}
+
+.degree-night{
+    
 }
