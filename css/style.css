@@ -18,33 +18,22 @@
 }
    
 .forecast{
-    display: table-cell;
+    display: block;
     float: left;
     width: 170px;
     height: 360px;
     background-color: green;
 }
 
-.forecast-header{
+.header{
     text-align: center;    
 }
 
 .day{
-    
+    text-align: center;        
+   
 }
 
-.forecast-content{
-        
-}
-
-.forecast-icon{
-      
-}
-
-.degree-day{
-    text-align: center;    
-}
-
-.degree-night{
+.night{
     text-align: center;    
 }
