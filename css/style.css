@@ -1,3 +1,8 @@
+#wrapper{
+   margin: 0 auto;
+   max-width: 1170px;
+}
+
 header{
     height: 60px;
     margin-bottom: 60px;
@@ -15,21 +20,16 @@ header{
 
 #forecast{
     
-    display: inline-block;
-    margin: 0 auto;
     width: 1170px;
     height: 390px;
     margin-top: 30px;
-    
     background-color: green;
 }
    
 article{
     display: inline-block;
-    vertical-align: top;
     width: 170px;
     height: 390px;
-    
     margin-left: 15px;
     margin-right: 15px;
     background-color: green;
