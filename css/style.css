@@ -5,6 +5,7 @@
 
 #today{
     display: block;
+    float: left;
     width: 570px;
     height: 570px;
     background-color: blue;
@@ -16,39 +17,41 @@ article{
     float: left;
     width: 170px;
     height: 360px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: green;
 }
 
 .day p{
-    font-size:24px;
+    font-size: 36px;
     text-align: center;
     color: white;
 }
 
 .date p{
-    font-size:18px;
+    font-size: 24px;
     text-align: center;
     color: white;
 }
 
 .icon{
     width: 170px;
+    margin: 0 auto;
 }
 
 .icon img{
     height: auto;
     width: 150px;
-    margin: 0 auto;
 }
 
 .day-temp p{
-    font-size:14px;
+    font-size:18px;
     text-align: center;
     color: white;
 }
 
 .night-temp p{
-    font-size:14px;
+    font-size:18px;
     text-align: center;
     color: white;
 }
