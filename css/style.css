@@ -24,6 +24,8 @@ article{
 
 .day p{
     font-family:Open Sans;
+    margin-top: 12px;
+    margin-bottom: 6px;
     font-size: 36px;
     text-align: center;
     color: white;
@@ -32,6 +34,8 @@ article{
 .date p{
     font-family:Open Sans;
     font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 12px;
     text-align: center;
     color: white;
 }
