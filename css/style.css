@@ -33,12 +33,12 @@ article{
 
 .icon{
     width: 170px;
-    margin: 0 auto;
 }
 
 .icon img{
     height: auto;
     width: 150px;
+    margin: 0 auto;
 }
 
 .day-temp p{
