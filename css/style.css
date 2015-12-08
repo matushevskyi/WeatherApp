@@ -10,6 +10,17 @@
     background-color: blue;
     margin: 0 auto;
 }
+
+#forecast{
+    display: block;
+    margin: 0 auto;
+    width: 1170px;
+    height: 390px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: green;
+}
    
 article{
     display: block;
