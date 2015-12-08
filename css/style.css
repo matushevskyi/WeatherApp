@@ -4,6 +4,7 @@
 }	
 
 #today{
+    display: block;
     width: 570px;
     height: 570px;
     background-color: blue;
@@ -20,14 +21,19 @@ article{
 
 .day p{
     font-size:24px;
+    text-align: center;
+    color: white;
 }
 
 .date p{
     font-size:18px;
+    text-align: center;
+    color: white;
 }
 
 .icon{
     width: 170px;
+    margin: 0 auto;
 }
 
 .icon img{
@@ -37,8 +43,12 @@ article{
 
 .day-temp p{
     font-size:14px;
+    text-align: center;
+    color: white;
 }
 
 .night-temp p{
     font-size:14px;
+    text-align: center;
+    color: white;
 }
