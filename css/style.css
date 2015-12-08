@@ -23,12 +23,14 @@ article{
 }
 
 .day p{
+    font-family:Open Sans;
     font-size: 36px;
     text-align: center;
     color: white;
 }
 
 .date p{
+    font-family:Open Sans;
     font-size: 24px;
     text-align: center;
     color: white;
@@ -36,7 +38,7 @@ article{
 
 .icon{
     width: 170px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .icon img{
@@ -45,12 +47,14 @@ article{
 }
 
 .day-temp p{
+    font-family:Open Sans;
     font-size:18px;
     text-align: center;
     color: white;
 }
 
 .night-temp p{
+    font-family:Open Sans;
     font-size:18px;
     text-align: center;
     color: white;
