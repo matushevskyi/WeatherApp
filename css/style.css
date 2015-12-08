@@ -3,13 +3,6 @@
 	margin: 0 auto;
 }	
 
-#container{
-    width: 100%;
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-}
-
 #today{
     width: 570px;
     height: 570px;
@@ -17,7 +10,7 @@
     margin: 0 auto;
 }
    
-.forecast{
+article{
     display: block;
     float: left;
     width: 170px;
@@ -25,19 +18,27 @@
     background-color: green;
 }
 
-.header{
-    text-align: center;    
+.day p{
+    font-size:24px;
+}
+
+.date p{
+    font-size:18px;
 }
 
 .icon{
-    fill: red;
+    width: 170px;
 }
 
-.day{
-    text-align: center;        
-   
+.icon img{
+    height: auto;
+    width: 150px;
 }
 
-.night{
-    text-align: center;    
+.day-temp p{
+    font-size:14px;
+}
+
+.night-temp p{
+    font-size:14px;
 }
