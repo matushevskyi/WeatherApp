@@ -5,35 +5,36 @@ body{
 
 #wrapper{
     margin: 0 auto;
-    width: 1230px;
+    max-width: 1230px;
 }
 
 header{
     height: 60px;
     width: 100%;
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.3);
     margin-top: -8px;
+    margin-bottom:30px;
 }
 
 #today{
-    display: flex;
+    display: block;
     width: 570px;
     height: 480px;
     margin-bottom: 30px;
     background-color: rgba(0, 0, 0, 0.3);
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 #forecast{
-    display: flex;
+    display: block;
     width: 1200px;
     height: 390px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin:30px auto 30px auto;
 }
    
 article{
-    flex: 1 auto;
+    display: block;
     float: left;
     max-width: 170px;
     height: 390px;
