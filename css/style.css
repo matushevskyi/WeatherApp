@@ -16,17 +16,9 @@ header{
     margin-bottom: 30px;
 }
 
-#today{
-    display: block;
-    max-width: 1200px;
-    height: 390px;
-    margin:60px auto 30px auto;
-    border-radius: 10px;
-}
-
 #location{
     display: inline-block;
-    width: 570px;
+    width: 370px;
     height: 390px;
     margin-right: 15px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -35,7 +27,7 @@ header{
 
 #icon{
     display: inline-block;
-    width: 570px;
+    width: 370px;
     height: 390px;
     margin-right: 15px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -44,7 +36,7 @@ header{
 
 #stat{
     display: inline-block;
-    width: 570px;
+    width: 370px;
     height: 390px;
     margin-right: 15px;
     background-color: rgba(0, 0, 0, 0.3);
