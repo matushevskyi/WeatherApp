@@ -16,28 +16,76 @@ header{
     margin-bottom: 30px;
 }
 
+#today{
+    display: block;
+    max-width: 1200px;
+    height: 390px;
+    margin:60px auto 30px auto;
+}
+
 #location{
-    display: inline-block;
+    display: block;
+    float: left;
     width: 370px;
     height: 390px;
+    margin-left: 15px;
     margin-right: 15px;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px
+}
+
+#day{
+    font-family: Open Sans;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    margin-top: 24px;
+    margin-bottom: 6px;
+}
+
+#date{
+    font-family: Open Sans;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#temp{
+    font-family: Open Sans;
+    text-align: center;
+    color: white;
+    font-size: 130px;
+    margin-top: 6px;
+    margin-bottom: 12px;
 }
 
 #icon{
-    display: inline-block;
+    display: block;
+    float: left;
     width: 370px;
     height: 390px;
+    margin-left: 15px;
     margin-right: 15px;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px
 }
 
+#icon img{
+    height: auto;
+    width: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 #stat{
-    display: inline-block;
+    display: block;
+    float: left;
     width: 370px;
     height: 390px;
+    margin-left: 15px;
     margin-right: 15px;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px
@@ -51,7 +99,7 @@ header{
     margin:30px auto 30px auto;
 }
    
-article{
+.forecast{
     display: block;
     float: left;
     max-width: 170px;
