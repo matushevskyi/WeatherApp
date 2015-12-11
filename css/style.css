@@ -141,6 +141,10 @@ header{
     border-radius: 10px;
 }
 
+#forecast :hover{
+    transform: scale(1.05);
+}
+
 .day p{
     font-family: Open Sans;
     margin-top: 12px;
