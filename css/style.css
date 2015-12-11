@@ -18,7 +18,7 @@ header{
 
 #today{
     display: block;
-    max-width: 1200px;
+    width: 1200px;
     height: 390px;
     margin:60px auto 30px auto;
 }
@@ -26,7 +26,7 @@ header{
 #location{
     display: block;
     float: left;
-    max-width: 370px;
+    width: 370px;
     height: 390px;
     margin-left: 15px;
     margin-right: 15px;
@@ -73,7 +73,7 @@ header{
 #icon{
     display: block;
     float: left;
-    max-width: 370px;
+    width: 370px;
     height: 390px;
     margin-left: 15px;
     margin-right: 15px;
@@ -92,8 +92,8 @@ header{
 #stat{
     display: block;
     float: left;
-    max-width: 370px;
-    max-height: 390px;
+    width: 370px;
+    height: 390px;
     margin-left: 15px;
     margin-right: 15px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -103,7 +103,7 @@ header{
 
 #forecast{
     display: block;
-    max-width: 1200px;
+    width: 1200px;
     height: 390px;
     margin:30px auto 30px auto;
 }
@@ -111,7 +111,7 @@ header{
 .forecast{
     display: block;
     float: left;
-    max-width: 170px;
+    width: 170px;
     height: 390px;
     margin-left: 15px;
     margin-right: 15px;
