@@ -2,27 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-      <title>WeatherApp</title>
-        <link href="./css/nulling.css" rel="stylesheet" type="text/css">
-        <link href="./css/style.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <title>WeatherApp</title>
+    <link href="./css/nulling.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header>
     </header>
     <div id="wrapper">
       <section id="today">
-      <article id="location">
-        <p id="city">Lviv</p>
-        <p id="country">Ukraine</p>
-        <p id="date">Sunday, December 13</p>
-        <p id="temp">-2°C</p>
-      </article>
-      <article id="icon">
-        <img src="images/cloud-rain-sun.svg" alt="cloud-rain-sun">
-      </article>
-      <article id="stat">
-      </article>
+        <article id="location">
+          <p id="city">Lviv</p>
+          <p id="country">Ukraine</p>
+          <p id="date">Sunday, December 13</p>
+          <p id="temp">-2°C</p>
+        </article>
+        <article id="icon">
+          <img src="images/cloud-rain-sun.svg" alt="cloud-rain-sun">
+        </article>
+        <article id="stat">
+          <div class="stat">
+            <img src="images/thermometer-75.svg">
+            <p>6°C</p>
+          </div>
+          <div class="stat">
+            <img src="images/thermometer-50.svg">
+            <p>-2°C</p>
+          </div>
+          <div class="stat">
+            <img src="">
+            <p>10%</p>
+          </div>
+          <div class="stat">
+            <img src="images/wind.svg">
+            <p>3 mps</p>
+          </div>
+        </article>
       </section>
       <section id="forecast"> 
         <article class="forecast">
@@ -129,5 +145,8 @@
         </article>
       </section>
     </div>
+    <footer>
+      <p></p>
+    </footer>
   </body>
 </html>
