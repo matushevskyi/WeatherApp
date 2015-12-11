@@ -4,10 +4,8 @@ body{
 }
 
 #wrapper{
-    display: block;
     margin: 0 auto;
     max-width: 1230px;
-    min-height: 100%;
 }
 
 header{
@@ -26,7 +24,6 @@ header{
 }
 
 #location{
-    position: relative;
     display: block;
     float: left;
     max-width: 370px;
@@ -38,7 +35,6 @@ header{
 }
 
 #city{
-    position: relative;
     font-family: Open Sans;
     text-align: center;
     color: white;
@@ -48,7 +44,6 @@ header{
 }
 
 #country{
-    position: relative;
     font-family: Open Sans;
     text-align: center;
     color: white;
@@ -58,7 +53,6 @@ header{
 }
 
 #date{
-    position: relative;
     font-family: Open Sans;
     text-align: center;
     color: white;
@@ -68,7 +62,6 @@ header{
 }
 
 #temp{
-    position: relative;
     font-family: Open Sans;
     text-align: center;
     color: white;
@@ -78,7 +71,6 @@ header{
 }
 
 #icon{
-    position: relative;
     display: block;
     float: left;
     max-width: 370px;
@@ -91,7 +83,6 @@ header{
 }
 
 #icon img{
-    position: relative;
     height: auto;
     max-width: 330px;
     margin-top: auto;
@@ -99,7 +90,6 @@ header{
 }
 
 #stat{
-    position: relative;
     display: block;
     float: left;
     max-width: 370px;
@@ -119,7 +109,6 @@ header{
 }
    
 .forecast{
-    position: relative;
     display: block;
     float: left;
     max-width: 170px;
