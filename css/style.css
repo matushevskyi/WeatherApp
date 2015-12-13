@@ -1,6 +1,8 @@
 body{
     background-image: url(../images/bg_5.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #wrapper{
@@ -101,10 +103,11 @@ header{
 
 .stat{
     height: 60px;
-    width: 100%;
+    margin: auto;
 }
 
 .stat img{
+    text-align: center;
     height: auto;
     width: 60px;
     display: block;
@@ -119,9 +122,9 @@ header{
     font-size: 36px;
     text-align: left;
     color: white;
-    
+    height: 60px;
+    width: auto;
 }
-
 
 #forecast{
     display: block;
@@ -133,6 +136,7 @@ header{
 .forecast{
     display: block;
     float: left;
+    clear: inherit;
     width: 170px;
     height: 370px;
     margin-left: 15px;
