@@ -10,9 +10,12 @@
   <body>
     <header>
       <div class="wrapper">
-        <h1>WeatherApp</h1>
+        <h1><span>Weather</span>App</h1>
         <div id="search">
           <input type="search" placeholder="Enter the city">
+          <button>
+            <img src="images/search.svg">
+          </button>
         </div>
       </div>
     </header>
@@ -47,7 +50,7 @@
         </article>
       </section>
       <section id="forecast"> 
-        <article class="forecast">
+        <article id="first-day">
           <div class="day">
             <p>MON</p>
           </div>
@@ -132,7 +135,7 @@
             <p>2°C</p>
           </div>
         </article>
-        <article class="forecast">
+        <article id="last-day">
           <div class="day">
             <p>SAT</p>
           </div>
@@ -153,7 +156,12 @@
     </div>
     <footer>
       <div class="wrapper">
-        <p>©Designed by Yaroslav Matushevskyi, 2015</p>
+        <h2>©Designed by Yaroslav Matushevskyi, 2015</h2>
+        <div id="social">
+          <img src="images/facebook.svg">
+          <img src="images/twitter.svg">
+          <img src="images/google-plus.svg">
+        </div>
       </div>
     </footer>
   </body>
