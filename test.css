@@ -1,0 +1,27 @@
+#search{
+	position: relative;
+	display: inline-block;
+	margin-left: 260px;
+}
+
+#search input{
+    position: relative;
+    height: 24px;
+    width: 346px;
+    float: left;
+    margin-top: 12px;
+}
+
+button{
+    position: relative;
+    margin-top: 12px;
+    width: 24px;
+    height: 24px;
+    background-color: #0096C8;
+    border:none;
+}
+
+button img{
+    position: relative;
+    width: 100%;
+    height: auto;
