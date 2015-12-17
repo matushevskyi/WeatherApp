@@ -1,19 +1,22 @@
 body{
-    background-image: url(../images/bg_2.jpg);
+    background-image: url(../images/bg_1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .wrapper{
     margin: 0 auto;
     max-width: 1170px;
 }
+
 header{
     height: 48px;
     width: 100%;
     background-color: black;
     margin-bottom: 30px;
 }
+
 h1{
     position: relative;
     font-family: Open Sans;
@@ -23,47 +26,52 @@ h1{
     float: left;
     margin-top: 12px;
 }
+
 h1 span{
     color: white;
 }
-#search{
-	float: right;
-}
-#search input{
+
+#formCity{
     position: relative;
-    height: 24px;
-    width: 346px;
-    float: left;
+    display: inline-block;
+    margin-left: 150px;
     margin-top: 12px;
 }
-button{
-    position: relative;
-    margin-top: 12px;
-    width: 24px;
+
+#btnGetWeather{
+    width: 100px;
     height: 24px;
+    border: none;
     background-color: #0096C8;
-    border:none;
+    color: white;
+    padding: 0px;
+    margin-left: -4px;
 }
-button img{
-    position: relative;
-    width: 100%;
-    height: auto;
+
+#inputCityName{
+    width: 270px;
+    height: 24px;
+    padding: 0px;
+    border: none;
 }
+
 #today{
     display: block;
     width: 1170px;
     height: 370px;
     margin:54px auto 30px auto;
 }
+
 #location{
     display: block;
     float: left;
     width: 370px;
     height: 370px;
     margin-right: 15px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(20, 0, 20, 0.5);
     border-radius: 10px
 }
+
 #city{
     font-family: Open Sans;
     text-align: center;
@@ -72,6 +80,7 @@ button img{
     margin-top: 12px;
     margin-bottom: 6px;
 }
+
 #country{
     font-family: Open Sans;
     text-align: center;
@@ -80,6 +89,7 @@ button img{
     margin-top: 6px;
     margin-bottom: 6px;
 }
+
 #date{
     font-family: Open Sans;
     text-align: center;
@@ -88,6 +98,7 @@ button img{
     margin-top: 6px;
     margin-bottom: 6px;
 }
+
 #temp{
     font-family: Open Sans;
     text-align: center;
@@ -96,6 +107,7 @@ button img{
     margin-top: 6px;
     margin-bottom: 12px;
 }
+
 #icon{
     display: block;
     float: left;
@@ -104,28 +116,32 @@ button img{
     margin-left: 15px;
     margin-right: 15px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(20, 0, 20, 0.5);
     border-radius: 10px
 }
+
 #icon img{
     height: auto;
     max-width: 310px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 #stat{
     display: block;
     float: left;
     width: 370px;
     height: 370px;
     margin-left: 15px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(20, 0, 20, 0.5);
     border-radius: 10px
 }
+
 .stat{
     height: 60px;
     margin: auto;
 }
+
 .stat img{
     text-align: center;
     height: auto;
@@ -134,6 +150,7 @@ button img{
     float: left;
     margin-bottom: 12px;
 }
+
 .stat p{
     font-family: Open Sans;
     margin-top: 12px;
@@ -144,12 +161,14 @@ button img{
     height: 60px;
     width: auto;
 }
+
 #forecast{
     display: block;
     width: 1170px;
     height: 370px;
     margin:30px auto 30px auto;
 }
+
 .forecast{
     display: block;
     float: left;
@@ -157,30 +176,34 @@ button img{
     height: 370px;
     margin-left: 15px;
     margin-right: 15px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(20, 0, 20, 0.5);
     border-radius: 10px;
 }
+
 #first-day{
     display: block;
     float: left;
     width: 170px;
     height: 370px;
     margin-right: 15px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(20, 0, 20, 0.5);
     border-radius: 10px;
 }
+
 #last-day{
     display: block;
     float: left;
     width: 170px;
     height: 370px;
     margin-left: 15px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(20, 0, 20, 0.5);
     border-radius: 10px;
 }
+
 #forecast :hover{
     transform: scale(1.05);
 }
+
 .day p{
     font-family: Open Sans;
     margin-top: 12px;
@@ -189,6 +212,7 @@ button img{
     text-align: center;
     color: white;
 }
+
 .date p{
     font-family: Open Sans;
     font-size: 24px;
@@ -197,16 +221,19 @@ button img{
     text-align: center;
     color: white;
 }
+
 .icon{
     width: 170px;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .icon img{
     height: auto;
     width: 130px;
 }
+
 .day-temp p{
     font-family: Open Sans;
     font-size:24px;
@@ -214,6 +241,7 @@ button img{
     margin-bottom: 12px;
     color: white;
 }
+
 .night-temp p{
     font-family: Open Sans;
     font-size:24px;
@@ -221,6 +249,7 @@ button img{
     text-align: center;
     color: white;
 }
+
 footer{
     display: block;
     position: fixed;
@@ -229,6 +258,7 @@ footer{
     background-color: black;
     bottom: 0px;
 }
+
 h2{
     font-family: Open Sans;
     font-size:12px;
@@ -237,15 +267,16 @@ h2{
     float: left;
     margin-top: 12px;
 }
+
 #social{
     display: block;
     float: right;
-    margin-top: 6px;
+    margin-top: 12px;
 }
-#social img{
+
+a img{
     width: 24px;
     height: 24px;
 }
-#social img :hover{
-    color: #0096C8;
-}
+
+

@@ -11,11 +11,19 @@
     <header>
       <div class="wrapper">
         <h1><span>Weather</span>App</h1>
-        <div id="search">
-          <input type="search" placeholder="Enter the city">
-          <button>
-            <img src="images/search.svg">
-          </button>
+         <form id="formCity">
+            <label for="cityName">Enter city name:</label>
+            <input id="inputCityName" type="text" name="cityName"/>
+            <input type="button" id="btnGetWeather" value="Get Weather"/>
+        </form>
+        <div id="social">
+          <a href="https://www.facebook.com/"><img src="images/facebook.svg"></a>
+          <a href="https://www.facebook.com/"><img src="images/twitter.svg"></a>
+          <a href="https://www.facebook.com/"><img src="images/google-plus.svg"></a>
+          
+          
+          
+        
         </div>
       </div>
     </header>
@@ -157,11 +165,7 @@
     <footer>
       <div class="wrapper">
         <h2>©Designed by Yaroslav Matushevskyi, 2015</h2>
-        <div id="social">
-          <img src="images/facebook.svg">
-          <img src="images/twitter.svg">
-          <img src="images/google-plus.svg">
-        </div>
+        
       </div>
     </footer>
   </body>
