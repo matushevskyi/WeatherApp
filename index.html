@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   </head>
   <body>
+    <!--header-->
     <header>
       <div class="wrapper">
         <h1><span>Weather</span>App</h1>
@@ -24,16 +25,20 @@
       </div>
     </header>
     <div class="wrapper">
+      <!--today weather-->
       <section id="today">
+        <!--location & date-->
         <article id="location">
           <p id="city">Lviv</p>
           <p id="country">Ukraine</p>
           <p id="date">Sunday, December 13</p>
           <p id="temp">-2°C</p>
         </article>
+        <!--weather icon-->
         <article id="icon">
           <img src="images/cloud-rain-sun.svg" alt="cloud-rain-sun">
         </article>
+        <!--weather data-->
         <article id="stat">
           <div class="stat">
             <img src="images/thermometer-75.svg">
@@ -53,7 +58,9 @@
           </div>
         </article>
       </section>
+      <!--weather forecast for 6 days-->
       <section id="forecast"> 
+        <!--day 1-->
         <article id="first-day">
           <div class="day">
             <p>MON</p>
@@ -71,6 +78,7 @@
             <p>2°C</p>
           </div>
         </article>
+        <!--day 2-->
         <article class="forecast">
           <div class="day">
             <p>TUE</p>
@@ -88,6 +96,7 @@
             <p>2°C</p>
           </div>
         </article>
+        <!--day 3-->
         <article class="forecast">
           <div class="day">
             <p>WED</p>
@@ -105,6 +114,7 @@
             <p>2°C</p>
           </div>
         </article>
+        <!--day 4-->
         <article class="forecast">
           <div class="day">
             <p>THU</p>
@@ -122,6 +132,7 @@
             <p>2°C</p>
           </div>
         </article>
+        <!--day 5-->
         <article class="forecast">
           <div class="day">
             <p>FRI</p>
@@ -139,6 +150,7 @@
             <p>2°C</p>
           </div>
         </article>
+        <!--day 6-->
         <article id="last-day">
           <div class="day">
             <p>SAT</p>
@@ -158,6 +170,7 @@
         </article>
       </section>
     </div>
+    <!--footer-->
     <footer>
       <div class="wrapper">
         <h2>©Designed by Yaroslav Matushevskyi, 2015</h2>
@@ -165,6 +178,7 @@
     </footer>
     <script src="scripts/jquery-2.1.4.js"></script>
     <script src="scripts/moment-with-locales.js"></script>
+    <script src="scripts/weather-by-city.js"></script>
     <script src="scripts/index.js"></script>
   </body>
 </html>
