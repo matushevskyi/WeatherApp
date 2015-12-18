@@ -10,6 +10,8 @@ body{
     max-width: 1170px;
 }
 
+/*header*/
+
 header{
     height: 48px;
     width: 100%;
@@ -54,6 +56,19 @@ h1 span{
     padding: 0px;
     border: none;
 }
+
+#social{
+    display: block;
+    float: right;
+    margin-top: 12px;
+}
+
+a img{
+    width: 24px;
+    height: 24px;
+}
+
+/*today weather*/
 
 #today{
     display: block;
@@ -162,6 +177,8 @@ h1 span{
     width: auto;
 }
 
+/* weather forecast for 6 days*/
+
 #forecast{
     display: block;
     width: 1170px;
@@ -250,6 +267,8 @@ h1 span{
     color: white;
 }
 
+/*footer*/
+
 footer{
     display: block;
     position: fixed;
@@ -266,15 +285,4 @@ h2{
     position: relative;
     float: left;
     margin-top: 12px;
-}
-
-#social{
-    display: block;
-    float: right;
-    margin-top: 12px;
-}
-
-a img{
-    width: 24px;
-    height: 24px;
 }

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WeatherApp</title>
+    <link href="./css/nulling.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <h1><span>Weather</span>App</h1>
+         <form id="formCity">
+            <label for="cityName">Enter city name:</label>
+            <input id="inputCityName" type="text" name="cityName"/>
+            <input type="button" id="btnGetWeather" value="Get Weather"/>
+        </form>
+        <div id="social">
+          <a href="https://www.facebook.com/"><img src="images/facebook.svg"></a>
+          <a href="https://twitter.com/"><img src="images/twitter.svg"></a>
+          <a href="https://plus.google.com/"><img src="images/google-plus.svg"></a>
+        </div>
+      </div>
+    </header>
+    <div class="wrapper">
+      <section id="today">
+        <article id="location">
+          <p id="city">Lviv</p>
+          <p id="country">Ukraine</p>
+          <p id="date">Sunday, December 13</p>
+          <p id="temp">-2°C</p>
+        </article>
+        <article id="icon">
+          <img src="images/cloud-rain-sun.svg" alt="cloud-rain-sun">
+        </article>
+        <article id="stat">
+          <div class="stat">
+            <img src="images/thermometer-75.svg">
+            <p>6°C</p>
+          </div>
+          <div class="stat">
+            <img src="images/thermometer-50.svg">
+            <p>-2°C</p>
+          </div>
+          <div class="stat">
+            <img src="">
+            <p>10%</p>
+          </div>
+          <div class="stat">
+            <img src="images/wind.svg">
+            <p>3 mps</p>
+          </div>
+        </article>
+      </section>
+      <section id="forecast"> 
+        <article id="first-day">
+          <div class="day">
+            <p>MON</p>
+          </div>
+          <div class="date">
+            <p>Dec 14</p>
+          </div>
+          <div class="icon">
+            <img src="images/sun.svg" alt="sun">
+          </div>
+          <div class="day-temp">
+            <p>8°C</p>
+          </div>
+          <div class="night-temp">
+            <p>2°C</p>
+          </div>
+        </article>
+        <article class="forecast">
+          <div class="day">
+            <p>TUE</p>
+          </div>
+          <div class="date">
+            <p>Dec 15</p>
+          </div>
+          <div class="icon">
+            <img src="images/cloud-rain-sun.svg" alt="cloud-rain-sun">
+          </div>
+          <div class="day-temp">
+            <p>8°C</p>
+          </div>
+          <div class="night-temp">
+            <p>2°C</p>
+          </div>
+        </article>
+        <article class="forecast">
+          <div class="day">
+            <p>WED</p>
+          </div>
+          <div class="date">
+            <p>Dec 16</p>
+          </div>
+          <div class="icon">
+            <img src="images/cloud-sun.svg" alt="cloud-sun">
+          </div>
+          <div class="day-temp">
+            <p>8°C</p>
+          </div>
+          <div class="night-temp">
+            <p>2°C</p>
+          </div>
+        </article>
+        <article class="forecast">
+          <div class="day">
+            <p>THU</p>
+          </div>
+          <div class="date">
+            <p>Dec 17</p>
+          </div>
+          <div class="icon">
+            <img src="images/clouds.svg" alt="clouds">
+          </div>
+          <div class="day-temp">
+            <p>8°C</p>
+          </div>
+          <div class="night-temp">
+            <p>2°C</p>
+          </div>
+        </article>
+        <article class="forecast">
+          <div class="day">
+            <p>FRI</p>
+          </div>
+          <div class="date">
+            <p>Dec 18</p>
+          </div>
+          <div class="icon">
+            <img src="images/cloud-drizzle.svg" alt="cloud-drizzle">
+          </div>
+          <div class="day-temp">
+            <p>8°C</p>
+          </div>
+          <div class="night-temp">
+            <p>2°C</p>
+          </div>
+        </article>
+        <article id="last-day">
+          <div class="day">
+            <p>SAT</p>
+          </div>
+          <div class="date">
+            <p>Dec 19</p>
+          </div>
+          <div class="icon">
+            <img src="images/cloud-wind-sun.svg" alt="cloud-wind-sun">
+          </div>
+          <div class="day-temp">
+            <p>8°C</p>
+          </div>
+          <div class="night-temp">
+            <p>2°C</p>
+          </div>
+        </article>
+      </section>
+    </div>
+    <footer>
+      <div class="wrapper">
+        <h2>©Designed by Yaroslav Matushevskyi, 2015</h2>
+      </div>
+    </footer>
+    <script src="scripts/jquery-2.1.4.js"></script>
+    <script src="scripts/moment-with-locales.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
