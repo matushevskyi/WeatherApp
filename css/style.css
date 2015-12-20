@@ -221,7 +221,7 @@ a img{
     transform: scale(1.05);
 }
 
-.day p{
+.day{
     font-family: Open Sans;
     margin-top: 12px;
     margin-bottom: 6px;
@@ -230,7 +230,7 @@ a img{
     color: white;
 }
 
-.date p{
+.date{
     font-family: Open Sans;
     font-size: 24px;
     margin-top: 6px;
