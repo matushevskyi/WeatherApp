@@ -57,13 +57,13 @@ var functionOk = function (data) {
             
             date.setDate(date.getDate() + 1);
     
-            weatherForDay += '<article>' +
+            weatherForDay += '<div>' +
                 '<p class="day">' + getDayNameByNumber(date.getDay()) + '</p>' +
                 '<p class="date">' + monthNames[date.getMonth()] + '&nbsp;' + date.getDate() + '</p>' +
                 '<div class="icon">' + ('<img src="images/' + data.list[i].weather[0].icon + '.svg" alt="' + data.list[1].weather[0].description + '" >') +'</div>' +
                 '<p class="temp-day">'  + Math.round(data.list[i].temp.max) + '&deg;C</div>' +
                 '<p class="temp-night">' + Math.round(data.list[i].temp.min) + '&deg;C &nbsp;'
-            '</article>';
+            '</div>';
         }
         weatherContainer.html(weatherForDay);
     };
