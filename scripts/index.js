@@ -39,7 +39,7 @@ var functionOk = function (data) {
         
         //Today weather
         var icon = data.list[0].weather[0].icon ;
-        $('#city').html('')
+        $('#city').html('city');
         $('#icon-current-time').html('<img src="images/'+ icon +'.svg" alt="' + data.list[0].weather[0].description + '" >');
         $('#temp').html(Math.round(data.list[0].temp.morn) + '&deg;C');
         $('#max-temp').html('&nbsp;' + '&nbsp;' + Math.round(data.list[0].temp.min) + '&deg;C');
