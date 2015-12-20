@@ -1,7 +1,8 @@
 $(function(){
     // Adding handler for inputCityName button
-    $('#btnGetWeather').click(function () {
-        getWeatherByCity('en', dataReceived, showError, $('#inputCityName').val());
+    $('#btn').click(function () {
+    getWeatherByCity(insertWeatherData, showError, $('#search-loc').val());
+    });
     });
     // Adding handler for 'Enter' key on keyboard
     $('#inputCityName').keypress(function(e) {
