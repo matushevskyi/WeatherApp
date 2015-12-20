@@ -142,7 +142,7 @@ a img{
     margin-bottom: 30px;
 }
 
-#stat{
+#data{
     display: block;
     float: left;
     width: 370px;
@@ -152,12 +152,12 @@ a img{
     border-radius: 10px
 }
 
-.stat{
+.data{
     height: 60px;
     margin: auto;
 }
 
-.stat img{
+.data img{
     text-align: center;
     height: auto;
     width: 60px;
@@ -166,7 +166,7 @@ a img{
     margin-bottom: 12px;
 }
 
-.stat p{
+.data p{
     font-family: Open Sans;
     margin-top: 12px;
     margin-bottom: 12px;
