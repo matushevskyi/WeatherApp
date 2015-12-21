@@ -1,10 +1,7 @@
 $(function(){
-    // Adding handler for inputCityName button
-    $('#btn').click(function () {
-    getWeatherByCity(insertWeatherData, showError, $('#search-loc').val());
+    $('#btnGetWeather').click(function () {
+        getWeatherByCity('ua', dataReceived, showError, $('#inputCityName').val());
     });
-    });
-    // Adding handler for 'Enter' key on keyboard
     $('#inputCityName').keypress(function(e) {
         var ENTER_KEY_CODE = 13;
         if ( e.which === ENTER_KEY_CODE ) 
@@ -13,35 +10,34 @@ $(function(){
             return false;
         }
     });    
-    // This function is called when weather data received
+    
+    getWeatherData('ua', dataReceived, showError);
+    
+
     function dataReceived(data) {
-        // Calc time difference from UTC, confert from min to milliseconds
-        var offset = (new Date()).getTimezoneOffset()*60*1000; 
+        var offset = (new Date()).getTimezoneOffset()*60*1000; // Відхилення від UTC в секундах
         var city = data.city.name;
         var country = data.city.country;
-        $("#weatherTable tr:not(:first)").remove(); // Remove all rows except first
-        // Next is the loop that goes on all elements in data.list array
+        $("#weatherTable tr:not(:first)").remove();
+
         $.each(data.list, function(){
-            // "this" holds weather object from this source: http://openweathermap.org/forecast16
-            var localTime = new Date(this.dt*1000 - offset); // Convert time from UTC to local
+            // "this" тримає об'єкт прогнозу звідси: http://openweathermap.org/forecast16
+            var localTime = new Date(this.dt*1000 - offset); // конвертуємо час з UTC у локальний
             addWeather(
                 this.weather[0].icon,
-                moment(localTime).calendar(),	// Use moment.js for date format
+                moment(localTime).calendar(),	// Використовуємо moment.js для представлення дати
                 this.weather[0].description,
-                Math.round(this.temp.day) + '&deg;C',
-                this.humidity + '%'
+                Math.round(this.temp.day) + '&deg;C'
             );
         });
-        $('#location').html(city + ', <b>' + country + '</b>'); // Adding location
-    }
 
 var functionOk = function (data) {
         console.log(data);
         
         //Today weather
         var icon = data.list[0].weather[0].icon ;
-        $('#city').html('city');
-        $('#country').html('country');
+        $('#city').html('data.city.name');
+        $('#country').html('data.city.country');
         $('#date').html('date');
         $('#icon-current-time').html('<img src="images/'+ icon +'.svg">');
         $('#temp').html(Math.round(data.list[0].temp.morn) + '&deg;C');
