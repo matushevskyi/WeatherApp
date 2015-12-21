@@ -1,6 +1,6 @@
 $(function(){
     $('#btnGetWeather').click(function () {
-        getWeatherByCity('ua', functionOk, showError, $('#inputCityName').val());
+        getWeatherByCity('ua', functionOk, functionError, $('#inputCityName').val());
     });
     $('#inputCityName').keypress(function(e) {
         var ENTER_KEY_CODE = 13;
