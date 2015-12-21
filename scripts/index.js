@@ -1,6 +1,6 @@
 $(function(){
     $('#btnGetWeather').click(function () {
-        getWeatherByCity('ua', dataReceived, showError, $('#inputCityName').val());
+        getWeatherByCity('ua', functionOk, showError, $('#inputCityName').val());
     });
     $('#inputCityName').keypress(function(e) {
         var ENTER_KEY_CODE = 13;
@@ -11,33 +11,14 @@ $(function(){
         }
     });    
     
-    getWeatherData('ua', dataReceived, showError);
-    
-
-    function dataReceived(data) {
-        var offset = (new Date()).getTimezoneOffset()*60*1000; // Відхилення від UTC в секундах
-        var city = data.city.name;
-        var country = data.city.country;
-        $("#weatherTable tr:not(:first)").remove();
-
-        $.each(data.list, function(){
-            // "this" тримає об'єкт прогнозу звідси: http://openweathermap.org/forecast16
-            var localTime = new Date(this.dt*1000 - offset); // конвертуємо час з UTC у локальний
-            addWeather(
-                this.weather[0].icon,
-                moment(localTime).calendar(),	// Використовуємо moment.js для представлення дати
-                this.weather[0].description,
-                Math.round(this.temp.day) + '&deg;C'
-            );
-        });
-
-var functionOk = function (data) {
+   
+    function functionOk (data) {
         console.log(data);
         
         //Today weather
         var icon = data.list[0].weather[0].icon ;
-        $('#city').html('data.city.name');
-        $('#country').html('data.city.country');
+        $('#city').html(data.city.name);
+        $('#country').html(data.city.country);
         $('#date').html('date');
         $('#icon-current-time').html('<img src="images/'+ icon +'.svg">');
         $('#temp').html(Math.round(data.list[0].temp.morn) + '&deg;C');
@@ -67,7 +48,7 @@ var functionOk = function (data) {
         weatherContainer.html(weatherForDay);
     };
 
-    var functionError = function (msg) {
+    function functionError (msg) {
         $('#error').html('An error has occurred: ' + msg);
     };
     
