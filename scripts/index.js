@@ -47,7 +47,12 @@ $(function(){
         }
         weatherContainer.html(weatherForDay);
     };
+    
+    function getDayNameByNumber(dayNum) {
+        return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][dayNum]; 
+    }
 
+    
     function functionError (msg) {
         $('#error').html('An error has occurred: ' + msg);
     };
