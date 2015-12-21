@@ -178,6 +178,10 @@ a img{
     width: auto;
 }
 
+#today :hover{
+    transform: scale(1.05);
+}
+
 /*weather forecast for 6 days*/
 
 #forecast{
@@ -252,7 +256,7 @@ a img{
     width: 130px;
 }
 
-.day-temp p{
+.min-temp p{
     font-family: Open Sans;
     font-size:24px;
     text-align: center;
@@ -260,7 +264,7 @@ a img{
     color: white;
 }
 
-.night-temp p{
+.max-temp p{
     font-family: Open Sans;
     font-size:24px;
     margin-top: 6px;
