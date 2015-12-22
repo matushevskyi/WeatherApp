@@ -11,7 +11,6 @@ $(function(){
         }
     });    
     
-   
     function functionOk (data) {
         console.log(data);
         
@@ -50,7 +49,6 @@ $(function(){
         return ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][dayNum]; 
     }
 
-    
     function functionError (msg) {
         $('#error').html('An error has occurred: ' + msg);
     };
