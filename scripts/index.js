@@ -28,7 +28,8 @@ $(function(){
         $('#min-temp').html('&nbsp;' + '&nbsp;' + Math.round(curr.temp.max) + '&deg;C');
         $('#humidity').html('&nbsp;' + '&nbsp;' + data.list[0].humidity + '%');
         $('#wind').html('&nbsp;' + '&nbsp;' + curr.speed + '&nbsp;' + 'm/s');
-
+        
+        //Weather forecast for 6 days
         var date = new Date();
         var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
         
